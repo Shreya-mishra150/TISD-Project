@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #5D8736;
+    font-family: Arial, sans-serif; 
+    color: azure;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.Navbar {
+    background-color: #809D3C;
+    color: whitesmoke;
+    height: 15px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+.Navbar ul li {
+    list-style: none;
+    margin: 0 1rem;
+    cursor: pointer; 
+}
+
+.Navbar ul li:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: #A9C46C;
+    color: bisque;
+    float: left;
+    height: 155vh;
+    width: 30%;
+    margin-top: -50px;
+}
+
+.sidebar ul {
+   list-style: none;
+   padding: 0px;
+}
+
+.sidebar li {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.Project {
+    display: inline-block;
+    width: 30%;
+    height: 500px;
+    background: #DDEB9D;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.content h2 {
+    font-family: Arial, sans-serif;    
+}
+
+body {
+    background-color: #F4FFC3;
+}
+
+.Project img {
+    height: 200px;
+    width: 100%;
+    transition: box-shadow 0.3s ease; 
+}
+
+.Project img:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+}
